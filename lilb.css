@@ -1,7 +1,7 @@
 body {
 	margin:0;
 	padding:0;
-	background:#fff;
+	background-color:#333;
 	font-family:'Montserrat',sans-serif;
 	font-size:12px;
 }
@@ -21,7 +21,7 @@ nav {
 	position:relative;
 	height:auto;
 	overflow:hidden;
-	background:none;
+	background:#333;
 }
 nav ul {
 	text-align:left;
@@ -30,11 +30,11 @@ nav ul li {
 	display:inline-block;
 }
 nav ul li a {
-	color:#333;
+	color:white;
 	display:inline-block;
 	padding:1em 3em;
 	text-decoration:none;
-	border-bottom:2px solid #fff;
+	//border-bottom:2px solid #34B484;
 	transition-property:all .2s linear 0s;
 	-moz-transition:all .2s linear 0s;
 	-webkit-transition:all .2s linear 0s;
@@ -42,7 +42,7 @@ nav ul li a {
 	font-size:16px;
 }
 nav ul li a:hover {
-	color: red;
+	color: #34B484;
 }
 /*styling open close button*/
 .button {
@@ -57,7 +57,7 @@ nav ul li a:hover {
 	text-decoration:none;
 }
 .btn-open:after {
-	color:#333;
+	color:#fff;
 	content:"\f0c9";
 	font-family:"FontAwesome";
 	transition-property:all .2s linear 0s;
@@ -205,4 +205,5 @@ nav ul li a:hover {
 	font-size:20px;
 	color#333;
 	text-align: center;
+
 }
