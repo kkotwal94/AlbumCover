@@ -142,6 +142,7 @@ Main content
   display: table;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -329,10 +330,14 @@ folding panel
   -ms-transform: translateX(-100%) rotateY(-90deg);
   -o-transform: translateX(-100%) rotateY(-90deg);
   transform: translateX(-100%) rotateY(-90deg);
-  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  /*background-image: url(http://i.imgur.com/f1S0qHS.png);*/
   background-repeat: no-repeat; 
   background-size: 100% 100%;
+  background-image:attr(data-after);
 }
+
+
+
 .cd-folding-panel .fold-left {
   /* on mobile only the right fold side is visible */
   display: none;
@@ -624,6 +629,34 @@ CD Case Flap and CD
   outline: 1px solid blue;
   background-size: cover;
   background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap4 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://i.imgur.com/MtMPGZn.png); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd4 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image: url(http://i.imgur.com/MtMPGZn.png);
   background-repeat: no-repeat; 
   webkit-background-size: cover;
   -moz-background-size: cover;

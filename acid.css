@@ -149,7 +149,7 @@
  
 .acidjs-cases-shelf > div::before
 {
-    background: #000 url("../pages/css3-cd-cases-on-a-shelf/example/poster.jpg") no-repeat;
+    background: #000 url("http://i.imgur.com/F7XHy7e.png?1") no-repeat;
     background-size: cover;
     border: solid 1px #24252a;
     opacity: .75;
