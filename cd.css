@@ -319,6 +319,7 @@ folding panel
   -moz-perspective-origin: 0% 50%;
   perspective-origin: 0% 50%;
 }
+
 .cd-folding-panel .fold-right::after {
   -webkit-transform-origin: right center;
   -moz-transform-origin: right center;
@@ -330,10 +331,146 @@ folding panel
   -ms-transform: translateX(-100%) rotateY(-90deg);
   -o-transform: translateX(-100%) rotateY(-90deg);
   transform: translateX(-100%) rotateY(-90deg);
-  /*background-image: url(http://i.imgur.com/f1S0qHS.png);*/
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
   background-repeat: no-repeat; 
   background-size: 100% 100%;
-  background-image:attr(data-after);
+  
+}
+
+.cd-folding-panel .fold-right::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed2::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed3::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed4::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed5::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
+}
+
+.cd-folding-panel .fold-right.changed6::after {
+  -webkit-transform-origin: right center;
+  -moz-transform-origin: right center;
+  -ms-transform-origin: right center;
+  -o-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: translateX(-100%) rotateY(-90deg);
+  -moz-transform: translateX(-100%) rotateY(-90deg);
+  -ms-transform: translateX(-100%) rotateY(-90deg);
+  -o-transform: translateX(-100%) rotateY(-90deg);
+  transform: translateX(-100%) rotateY(-90deg);
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  background-size: 100% 100%;
+  
 }
 
 
@@ -347,6 +484,44 @@ folding panel
     background-repeat: no-repeat; 
   background-size: 100% 100%;
 }
+
+.cd-folding-panel .fold-left.changed::after {
+  background-image: url(http://imd.ulximg.com/image/138/cover/1438798528_18d841f77a3ec52f84260a29f71e19ed.jpg/3b91f95bff809cabf27d034b8c8f9027/1438798528_0f5c1df0c0d753e69c99b3d9c2b3be19.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
+.cd-folding-panel .fold-left.changed2::after {
+  background-image: url(http://ime.ulximg.com/image/138/cover/1413338609_a82a511833773d95195be83d2a721e48.jpg/65d82aec9f9fa7f7e68a36d0b54210a0/1413338609_lil_b_the_basedgod_ultimate_bitch_mixtape_front_large_29.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
+.cd-folding-panel .fold-left.changed3::after {
+  background-image: url(http://imf.ulximg.com/image/138/cover/1401651448_e99e0dd977cc541a8086e28d1b6ca257.jpg/d3daf0de1b349d94db040bf201b06530/1401651448_front_cover_10.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
+.cd-folding-panel .fold-left.changed4::after {
+  background-image: url(http://img.ulximg.com/image/138/cover/1395152076_4fb8cecdee410993d1326318c6ce0886.jpg/5bdc7aa0325e589107b8acf8542fca80/1395152076_soulja_boy_king_soulja_2_front_large_13.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
+.cd-folding-panel .fold-left.changed5::after {
+  background-image: url(http://imh.ulximg.com/image/138/cover/1418083149_455838f64a0ad2226ba855a8d6bb9f0a.jpg/fd0faf6229ff1f8693e83510e71468db/1418083149_lilb.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
+
+.cd-folding-panel .fold-left.changed6::after {
+  background-image: url(http://imi.ulximg.com/image/138/cover/1346261417_6dd11627aae480d91a4cc0ec15db4c59.jpg/25cfc626ce1ac6988f52c71a213c2b4c/1346261417_based_jam.jpg);
+    background-repeat: no-repeat; 
+  background-size: 100% 100%;
+}
+
 .cd-folding-panel .cd-close {
   /* 'X' close icon */
   position: absolute;
@@ -644,7 +819,7 @@ CD Case Flap and CD
   outline: 1px solid red;
   background-size: cover;
   background-color: white;  
-  background-image: url(http://i.imgur.com/MtMPGZn.png); 
+  background-image: url(http://imd.ulximg.com/image/138/cover/1438798528_18d841f77a3ec52f84260a29f71e19ed.jpg/3b91f95bff809cabf27d034b8c8f9027/1438798528_0f5c1df0c0d753e69c99b3d9c2b3be19.jpg); 
   background-repeat: no-repeat;  
   background-attachment: scroll;  
   background-size: 100% 100%;
@@ -656,7 +831,174 @@ CD Case Flap and CD
   height:100%;
   outline: 1px solid blue;
   background-size: cover;
-  background-image: url(http://i.imgur.com/MtMPGZn.png);
+  background-image:url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap5 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://ime.ulximg.com/image/138/cover/1413338609_a82a511833773d95195be83d2a721e48.jpg/65d82aec9f9fa7f7e68a36d0b54210a0/1413338609_lil_b_the_basedgod_ultimate_bitch_mixtape_front_large_29.jpg); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd5 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image:url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap6 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://imf.ulximg.com/image/138/cover/1401651448_e99e0dd977cc541a8086e28d1b6ca257.jpg/d3daf0de1b349d94db040bf201b06530/1401651448_front_cover_10.jpg); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd6 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap7 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://imh.ulximg.com/image/138/cover/1418083149_455838f64a0ad2226ba855a8d6bb9f0a.jpg/fd0faf6229ff1f8693e83510e71468db/1418083149_lilb.jpg); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd7 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap8 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://imi.ulximg.com/image/138/cover/1346261417_6dd11627aae480d91a4cc0ec15db4c59.jpg/25cfc626ce1ac6988f52c71a213c2b4c/1346261417_based_jam.jpg); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd8 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+.cd-caseflap9 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://imh.ulximg.com/image/138/cover/1418083149_455838f64a0ad2226ba855a8d6bb9f0a.jpg/fd0faf6229ff1f8693e83510e71468db/1418083149_lilb.jpg); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd9 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image: url(http://i.imgur.com/f1S0qHS.png);
+  background-repeat: no-repeat; 
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+.cd-caseflap10 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid red;
+  background-size: cover;
+  background-color: white;  
+  background-image: url(http://i.imgur.com/MtMPGZn.png); 
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-size: 100% 100%;
+}
+
+.cd-casecd10 {
+  width:50%;
+  float:left;
+  height:100%;
+  outline: 1px solid blue;
+  background-size: cover;
+  background-image:url(http://i.imgur.com/f1S0qHS.png);
   background-repeat: no-repeat; 
   webkit-background-size: cover;
   -moz-background-size: cover;
