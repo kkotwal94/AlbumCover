@@ -214,10 +214,7 @@
  
 .acidjs-cases-shelf figure
 {
-    padding: 1px 1px 1px 0;
-    border: solid 1px #636260;
-    box-shadow: -1px 2px 4px 0px #000;
-    background: #666;
+    background: transparent;
 }
  
 .acidjs-cases-shelf figure > div
@@ -228,7 +225,6 @@
  
 .acidjs-cases-shelf figure > div::before
 {    
-    width: 12px;
     background: #444;
     border-right: solid 1px #666;
 }
@@ -256,12 +252,6 @@
  
 .acidjs-cases-shelf.acidjs-cases-tilted li::before
 {
-    top: -12px;
-    left: 23px;
-    bottom: -10px;
-    width: 6px;
-    background: #333;
-     
     -webkit-transform: rotateY(-10deg);
     -moz-transform: rotateY(-10deg);
     -ms-transform: rotateY(-10deg);
@@ -278,7 +268,7 @@
  
 .acidjs-cases-shelf.acidjs-cases-tilted li
 {
-    width: 34px;
+    width: 124px;
 }
  
 .acidjs-cases-shelf.acidjs-cases-tilted > div
