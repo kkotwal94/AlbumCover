@@ -1,0 +1,310 @@
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf::after,
+.acidjs-cases-shelf::before,
+.acidjs-cases-shelf ul::before,
+.acidjs-cases-shelf ul::after,
+.acidjs-cases-shelf figure > div::before,
+.acidjs-cases-shelf figure > div::after,
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    content: "";
+}
+ 
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf::before,
+.acidjs-cases-shelf ul::before,
+.acidjs-cases-shelf ul::after,
+.acidjs-cases-shelf figure > div::after,
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    position: absolute;
+}
+ 
+.acidjs-cases-shelf,
+.acidjs-cases-shelf li,
+.acidjs-cases-shelf figure,
+.acidjs-cases-shelf figure > div,
+.acidjs-cases-shelf.acidjs-cases-tilted li
+{
+    position: relative;
+}
+ 
+.acidjs-cases-shelf,
+.acidjs-cases-shelf li,
+.acidjs-cases-shelf figure,
+.acidjs-cases-shelf.acidjs-cases-tilted li
+{
+    display: inline-block;
+}
+ 
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf figure > div,
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf figure img,
+.acidjs-cases-shelf figure > div::before
+{
+    height: 100%;
+}
+ 
+.acidjs-cases-shelf::before,
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after
+{
+    left: 27px;
+}
+ 
+.acidjs-cases-shelf::after,
+.acidjs-cases-shelf::before,
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    display: block;
+}
+ 
+.acidjs-cases-shelf::after,
+.acidjs-cases-shelf figure img,
+.acidjs-cases-shelf figure > div::after
+{
+    width: 100%;
+}
+ 
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf::before
+{
+    right: 27px;
+}
+ 
+.acidjs-cases-shelf::before,
+.acidjs-cases-shelf ul::before,
+.acidjs-cases-shelf ul::after
+{
+    bottom: 8px;
+}
+ 
+.acidjs-cases-shelf figure,
+.acidjs-cases-shelf figure > div
+{
+    width: 140px;
+    overflow: hidden;
+}
+ 
+.acidjs-cases-shelf > div::before,
+.acidjs-cases-shelf > div::after
+{
+    z-index: -1;
+}
+ 
+.acidjs-cases-shelf > div::after,
+.acidjs-cases-shelf figure > div::after
+{
+    top: 0;
+}
+ 
+.acidjs-cases-shelf li,
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    z-index: 5;
+}
+ 
+.acidjs-cases-shelf ul::before,
+.acidjs-cases-shelf ul::after
+{
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+ 
+.acidjs-cases-shelf figure > div::after,
+.acidjs-cases-shelf.acidjs-cases-tilted li:hover
+{
+    z-index: 10;
+}
+ 
+.acidjs-cases-shelf figure img,
+.acidjs-cases-shelf figure > div::before
+{
+    display: table-cell;
+}
+ 
+.acidjs-cases-shelf *
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+.acidjs-cases-shelf > div::before
+{
+    background: #000 url("../pages/css3-cd-cases-on-a-shelf/example/poster.jpg") no-repeat;
+    background-size: cover;
+    border: solid 1px #24252a;
+    opacity: .75;
+}
+ 
+.acidjs-cases-shelf > div::after
+{
+    box-shadow: 0 0 60px 20px rgba(0, 0, 0, .80) inset;
+}
+ 
+.acidjs-cases-shelf::after
+{
+    height: 8px;
+    background: #24252a;
+}
+ 
+.acidjs-cases-shelf::before
+{
+    background: #303138;
+    height: 23px;
+}
+ 
+.acidjs-cases-shelf ul
+{
+    padding: 24px 0 0;
+}
+ 
+.acidjs-cases-shelf ul::before
+{
+    border-color: transparent transparent #303138;
+    border-width: 0 0 23px 27px;
+    left: 0;
+     
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+ 
+.acidjs-cases-shelf ul::after
+{
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #303138;
+    border-width: 23px 0 0 27px;
+    right: 0;
+}
+ 
+.acidjs-cases-shelf li
+{
+    margin: 8px;
+}
+ 
+.acidjs-cases-shelf li:first-child
+{
+    margin-left: 27px;
+}
+ 
+.acidjs-cases-shelf li:last-child
+{
+    margin-right: 27px;
+}
+ 
+.acidjs-cases-shelf figure
+{
+    padding: 1px 1px 1px 0;
+    border: solid 1px #636260;
+    box-shadow: -1px 2px 4px 0px #000;
+    background: #666;
+}
+ 
+.acidjs-cases-shelf figure > div
+{
+    height: 130px;
+    display: table;
+}
+ 
+.acidjs-cases-shelf figure > div::before
+{    
+    width: 12px;
+    background: #444;
+    border-right: solid 1px #666;
+}
+ 
+.acidjs-cases-shelf figure > div::after
+{
+    left: 35px;
+    height: 200%;
+    background: rgba(255, 255, 255, .20);
+     
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li
+{
+    -webkit-perspective: 300px;
+    -moz-perspective: 300px;
+    -ms-perspective: 300px;
+    -o-perspective: 300px;
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li::before
+{
+    top: -12px;
+    left: 23px;
+    bottom: -10px;
+    width: 6px;
+    background: #333;
+     
+    -webkit-transform: rotateY(-10deg);
+    -moz-transform: rotateY(-10deg);
+    -ms-transform: rotateY(-10deg);
+    -o-transform: rotateY(-10deg);
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted figure
+{
+    -webkit-transform: rotateY(50deg);
+    -moz-transform: rotateY(50deg);
+    -ms-transform: rotateY(50deg);
+    -o-transform: rotateY(50deg);
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li
+{
+    width: 34px;
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted > div
+{
+    padding: 0 110px 0 0;
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li:hover::before
+{
+    display: none;
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li figure
+{
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    -ms-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+}
+ 
+.acidjs-cases-shelf.acidjs-cases-tilted li:hover figure
+{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
