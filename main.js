@@ -15,6 +15,7 @@ jQuery(document).ready(function($){
 	gallery.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+		rightCheck();
 		openItemInfo($(this).attr('href')); //call openiteminfo
 		//var myElement = document.querySelector(".fold-left");
 			//myElement.style.backgroundImage = 'url("http://ime.ulximg.com/image/138/cover/1413338609_a82a511833773d95195be83d2a721e48.jpg/65d82aec9f9fa7f7e68a36d0b54210a0/1413338609_lil_b_the_basedgod_ultimate_bitch_mixtape_front_large_29.jpg")';
@@ -27,6 +28,7 @@ jQuery(document).ready(function($){
 	gallery2.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed');
 		myRightElement.addClass('changed');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -40,6 +42,7 @@ jQuery(document).ready(function($){
 	gallery3.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed2');
 		myRightElement.addClass('changed2');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -53,6 +56,7 @@ jQuery(document).ready(function($){
 	gallery4.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed3');
 		myRightElement.addClass('changed3');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -65,6 +69,7 @@ jQuery(document).ready(function($){
 	gallery5.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed4');
 		myRightElement.addClass('changed4');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -77,6 +82,7 @@ jQuery(document).ready(function($){
 	gallery6.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed5');
 		myRightElement.addClass('changed5');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -90,6 +96,7 @@ jQuery(document).ready(function($){
 	gallery7.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
+			rightCheck();
 		myElement.addClass('changed6');
 		myRightElement.addClass('changed6');
 		openItemInfo($(this).attr('href')); //call openiteminfo
@@ -193,27 +200,32 @@ jQuery(document).ready(function($){
 			myElement.removeClass('changed6');
 		}
 
-		if(myRightElement.hasClass('changed')) {
+		
+	}
+	
+	function rightCheck() {
+	
+	if(myRightElement.hasClass('changed')) {
 			myRightElement.removeClass('changed');
 		}
 
 		if(myRightElement.hasClass('changed2')) {
-			myRightElement.removeClass('changed');
+			myRightElement.removeClass('changed2');
 		}
 		if(myRightElement.hasClass('changed3')) {
-			myRightElement.removeClass('changed');
+			myRightElement.removeClass('changed3');
 		}
 		if(myRightElement.hasClass('changed4')) {
-			myRightElement.removeClass('changed');
+			myRightElement.removeClass('changed4');
 		}
 		if(myRightElement.hasClass('changed5')) {
-			myRightElement.removeClass('changed');
+			myRightElement.removeClass('changed5');
 		}
 		if(myRightElement.hasClass('changed6')) {
-			myRightElement.removeClass('changed');
+			myRightElement.removeClass('changed6');
 		}
-	}
 
+}
 	function viewportSize() {
 		/* retrieve the content value of .cd-main::before to check the actua mq */
 		return window.getComputedStyle(document.querySelector('.content'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
