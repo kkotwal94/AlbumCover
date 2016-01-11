@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
 		myRightElement = $(".fold-right");
 
 	/* open folding content */
-	gallery.on('click', 'a', function(event){
+	gallery.on('click', function(event){
 		event.preventDefault(); //dont do whatever it does
 		rightLeftCheck();
 		openItemInfo($(this).attr('href')); //call openiteminfo
