@@ -149,8 +149,7 @@
  
 .cases-shelf > div::before
 {
-    background: #000 url("http://i.imgur.com/F7XHy7e.png?1") no-repeat;
-    background-size: cover;
+    background: #000 url("http://7-themes.com/data_images/out/37/6895302-white-clouds.jpg");
     border: solid 1px #24252a;
     opacity: .75;
 }
