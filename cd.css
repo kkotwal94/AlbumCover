@@ -958,7 +958,7 @@ CD Case Flap and CD
   outline: 1px solid red;
   background-size: cover;
   background-color: white;  
-  background-image: url(http://imh.ulximg.com/image/138/cover/1418083149_455838f64a0ad2226ba855a8d6bb9f0a.jpg/fd0faf6229ff1f8693e83510e71468db/1418083149_lilb.jpg); 
+  background-image: url(http://img.ulximg.com/image/138/cover/1395152076_4fb8cecdee410993d1326318c6ce0886.jpg/5bdc7aa0325e589107b8acf8542fca80/1395152076_soulja_boy_king_soulja_2_front_large_13.jpg); 
   background-repeat: no-repeat;  
   background-attachment: scroll;  
   background-size: 100% 100%;
@@ -1004,4 +1004,8 @@ CD Case Flap and CD
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100% 100%;
+}
+
+iframe {
+  height:100%;
 }
